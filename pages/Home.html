@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="../css/Home.css" rel="stylesheet">
+  <title>Employee Payroll App</title>
+</head>
+<body>
+  <!-- UC 1 -->
+  <header class="header-content header">
+    <div class="logo-content">
+      <img src="../assets/images/logo.png" alt="Logo">
+      <div>
+          <span class="emp-text">Employee</span><br>
+          <span class="emp-text emp-payroll">Payroll</span>
+      </div>
+    </div>
+  </header>
+  <div class="main-content">
+      <!-- UC 2 -->
+      <div class="header-content">
+        <div class="emp-detail-text">
+          Employee Details
+          <div class="emp-count">0</div>
+        </div>
+        <a href="../pages/PayrollForm.html" class="add-button">
+          <img src="../assets/icons/add-24px.svg" alt="">Add User
+        </a>
+      </div>
+    </div>
+    <div class="table-main">
+        <table id = "table-display" class="table"></table>
+    </div>
+    <script defer src="../js/Home.js"></script>
+    <script defer src="../js/utility.js"></script>
+    <script defer src="../js/site_properties.js"></script>
+    <script defer src="../js/http_services.js"></script>
+</body>
+</html>
